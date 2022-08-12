@@ -6,15 +6,15 @@ import {Link} from 'react-router-dom'
 const CoinRow = ({coin}) => {
     return (
       <div className='coin-container'>
-      <div className='coin-row'>
+        <li className="list-cotainer">
+        <div className='coin-row'>
         <div className='coin'>
-
-          <img src={coin.image} alt='crypto' />
-          <h1>{coin.name}</h1>
           {/* Linking to Navigate next Page to view Coin Details */}
-          <Link to={`/coin-id/${coin.id}`} className="link-item">
-          <p className=' coin-symbol'>{coin.symbol}</p>
+        <Link to={`/coin-id/${coin.id}`} className="link-item">
+          <img src={coin.image} alt='crypto' />
           </Link>
+          <h1>{coin.name}</h1>
+          <p className=' coin-symbol'>{coin.symbol}</p>
           </div>
           <div className="coin-data">
           <p className=' coin-price'>€{coin.current_price}</p>
@@ -24,6 +24,8 @@ const CoinRow = ({coin}) => {
           </p>
         </div>
       </div>
+        </li>
+      
     </div>
     
     )

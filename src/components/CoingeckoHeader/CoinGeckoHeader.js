@@ -16,9 +16,11 @@ return (
         </div>
       </div>
       {/* maping every item in coin */}
+      <ul>
       {coins.map((coin, i) => (
-    <CoinRow coin={coin} index={i + 1} key={i} />
-  ))}
+          <CoinRow coin={coin} index={i + 1} key={i} />
+              ))}
+      </ul>
   </div>
   
     

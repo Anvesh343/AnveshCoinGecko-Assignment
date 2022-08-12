@@ -30,7 +30,6 @@ const CoinGeckoHome = () => {
 
   // handlePageClick Function will gives next 10 coin list 
   const handlePageClick = async(data) => {
-    console.log(data.selected)
     let curentPage = data.selected + 10
     const itemsFromServer = await fetchComents(curentPage) // here I'm Calling fetchComments funtion 
     setCoins(itemsFromServer)
