@@ -1,6 +1,6 @@
 import React from "react";
 import './CoinGeckoHeader.css'
-import CoinRow from './CoinRow'
+import CoinRow from '../CoinGeckoItems/CoinRow'
 
 const CoinGeckoHeader = ({coins}) => {
   

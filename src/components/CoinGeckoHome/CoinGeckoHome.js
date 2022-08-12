@@ -1,9 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import axios from 'axios'
-import TableCoins from './CoinGeckoHeader'
+import TableCoins from '../CoingeckoHeader/CoinGeckoHeader'
 import ReactPagenate from 'react-paginate'
-import CoinRow from './CoinRow'
 
 import './CoinGeckoHome.css'
 

@@ -1,6 +1,6 @@
 import React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
-import CoinGeckoHome from "./components/CoinGeckoHome";
+import CoinGeckoHome from "./components/CoinGeckoHome/CoinGeckoHome";
 import CoinsDetails from "./CoinsDetails/CryptoCurrensy";
 
 function App() {
