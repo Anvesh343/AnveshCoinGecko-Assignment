@@ -1,4 +1,4 @@
-import { render, screen, act } from "@testing-library/react";
+import { render, screen, } from "@testing-library/react";
 import React from 'react';
 
 import CoingeckoHome from '../CoinGeckoHome'
@@ -47,4 +47,3 @@ test('To check Image ', () => {
     const COINGECKO = screen.getByText(/COIN GECKO/i);
     expect(COINGECKO).toBe(COINGECKO);
   });
-  
