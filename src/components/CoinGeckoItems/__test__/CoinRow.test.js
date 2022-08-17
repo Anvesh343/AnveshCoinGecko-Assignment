@@ -19,6 +19,5 @@ test('To check List ', () => {
         <MockCoinrow coin={10}/>
     );
     const items = screen.getAllByRole("listitem");
-    console.log(items)
     expect(items.length).toEqual(items.length);
   });
