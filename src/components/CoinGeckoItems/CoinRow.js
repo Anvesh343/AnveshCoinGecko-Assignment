@@ -25,7 +25,6 @@ const CoinRow = ({coin}) => {
         </div>
       </div>
         </li>
-      
     </div>
     
     )
